@@ -1,0 +1,43 @@
+
+/*Field*/
+
+html, body, #field {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#field:hover {
+    cursor:url('../assets/golf-ball.png') 2 2, pointer;
+}
+
+#field {
+    background-color: green;
+}
+
+/*Items*/
+
+.grass {
+    width:200px;
+    height:200px;
+    background-image:url('../assets/grass.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.hole {
+    width:50px;
+    height:50px;
+    background-image:url('../assets/hole.png');
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+}
+
+.flag {
+    width:200px;
+    height:200px;
+    background-image:url('../assets/flag.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
