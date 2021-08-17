@@ -1,0 +1,8 @@
+
+function initGame() {
+
+}
+
+function ballInHole() {
+    
+}
