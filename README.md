@@ -1,0 +1,2 @@
+# GolfJS
+ Simple JavaScript game
