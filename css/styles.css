@@ -27,14 +27,23 @@ html, body, #field {
 }
 
 .hole {
-    position: absolute;
-    top: 230px;
-    left: 200px;
     width: 50px;
     height: 50px;
     background-image:url('../assets/hole.png');
     background-repeat: no-repeat;
     background-size: 50px 50px;
+}
+
+.positionHole {
+    position: absolute;
+    top: 230px;
+    left: 200px;
+}
+
+.positionFlag {
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
 
 .flag {
@@ -43,7 +52,7 @@ html, body, #field {
     left: 200px;
     width:70px;
     height:70px;
-    background-image:url('../assets/flag.png');
+    background-image:url('../assets/flag2.png');
     background-repeat: no-repeat;
     background-size: 70px 70px;
 }
